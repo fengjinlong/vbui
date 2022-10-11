@@ -20,7 +20,7 @@ jobs:
         run: pnpm install
       - name: Run Test
         run: pnpm run test:run
-      - name: "Send mail"
+      - name: "Send error"
         if: ${{ failure() }}
         uses: dawidd6/action-send-mail@master
         with:
@@ -32,7 +32,7 @@ jobs:
           body: Build job of ${{github.repository}} completed bad!
           to: 18618166564@163.com
           from: GitHub Actions
-      - name: "Send mail"
+      - name: "Send ok"
         uses: dawidd6/action-send-mail@master
         with:
           server_address: smtp.163.com
