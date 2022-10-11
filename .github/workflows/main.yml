@@ -21,6 +21,7 @@ jobs:
       - name: Run Test
         run: pnpm run test:run
       - name: "Send mail"
+        if: ${{ failure() }}
         uses: dawidd6/action-send-mail@master
         with:
           server_address: smtp.163.com
