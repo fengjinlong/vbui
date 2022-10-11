@@ -10,7 +10,7 @@ jobs:
   UnitTest:
     # 单元测试任务
     # The type of runner that the job will run on
-    runs-on: Macos
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - uses: pnpm/action-setup@v2.1.0
