@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest",
+    "test:run": "vitest run",
     "coverage": "vitest run --coverage",
     "dev": "vite",
     "build": "vite build"
