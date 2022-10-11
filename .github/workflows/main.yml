@@ -20,3 +20,15 @@ jobs:
         run: pnpm install
       - name: Run Test
         run: pnpm run test:run
+      - name: "Send mail"
+        uses: dawidd6/action-send-mail@master
+        with:
+          server_address: smtp.163.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: ga Report
+          body: file://email.txt
+          to: 18618166564@163.com
+          from: GitHub Actions
+          content_type: text/plain
