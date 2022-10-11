@@ -1,0 +1,29 @@
+{
+  "name": "mui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^3.1.7",
+    "vue": "^3.2.40"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.9",
+    "@types/node": "^18.8.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vitest/coverage-c8": "^0.24.0",
+    "@vue/test-utils": "^2.1.0",
+    "happy-dom": "^7.4.0",
+    "unocss": "^0.45.29",
+    "vitest": "^0.24.1"
+  }
+}
