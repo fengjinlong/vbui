@@ -1,4 +1,4 @@
-import MButton from "../index.vue";
+import VBButton from "../index.vue";
 
 import { shallowMount } from "@vue/test-utils";
 import { describe, expect, test } from "vitest";
@@ -7,7 +7,7 @@ describe("Button", () => {
   // mount
   test("mount  @vue/test-utils", () => {
     // @vue/test-utils
-    const wrapper = shallowMount(MButton, {
+    const wrapper = shallowMount(VBButton, {
       slots: {
         default: "Button",
       },
@@ -19,7 +19,7 @@ describe("Button", () => {
 });
 describe("color", () => {
   test("default", () => {
-    const wrapper = shallowMount(MButton, {
+    const wrapper = shallowMount(VBButton, {
       slots: {
         default: "Button",
       },
@@ -32,7 +32,7 @@ describe("color", () => {
     ).toBe(true);
   });
   test("red", () => {
-    const wrapper = shallowMount(MButton, {
+    const wrapper = shallowMount(VBButton, {
       slots: {
         default: "Button",
       },

@@ -22,8 +22,8 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       entry: "./src/entry.ts",
-      name: "MUI",
-      fileName: "m-ui",
+      name: "VBUI",
+      fileName: "vb-ui",
       // 导出模块格式
       formats: ["esm", "umd", "iife"],
     },

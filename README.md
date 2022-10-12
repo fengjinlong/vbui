@@ -1,5 +1,5 @@
-# mui
-mui-vite1
+# vbui
+vbui-vite1
 <br>
 
 
@@ -8,7 +8,7 @@ mui-vite1
 
 <p align="center">
     <!-- <a href="https://www.npmjs.com/package/smarty-admin-ui"><img src="https://img.shields.io/npm/v/smarty-admin-ui?color=c95f8b&amp;label=" alt="NPM version"></a> -->
-    <a href="https://github.com/fengjinlong/mui/actions/workflows/main.yml"><img src="https://github.com/fengjinlong/mui/blob/main/badge.svg" alt="CI" style="max-width: 100%;"></a>
+    <a href="https://github.com/fengjinlong/vbui/actions/workflows/main.yml"><img src="https://github.com/fengjinlong/vbui/blob/main/badge.svg" alt="CI" style="max-width: 100%;"></a>
 </p>
 
 <br>

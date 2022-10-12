@@ -1,14 +1,14 @@
 <template>
-  <MButton></MButton>
-  <MInput></MInput>
+  <VBButton></VBButton>
+  <VBInput></VBInput>
 
-  <MButton color="blue">蓝色按钮</MButton>
-  <MButton color="green" icon="add">绿色按钮</MButton>
-  <MButton color="gray">灰色按钮</MButton>
-  <MButton color="yellow">黄色按钮</MButton>
-  <MButton color="red" icon="search">红色按钮</MButton>
+  <VBButton color="blue">蓝色按钮</VBButton>
+  <VBButton color="green" icon="add">绿色按钮</VBButton>
+  <VBButton color="gray">灰色按钮</VBButton>
+  <VBButton color="yellow">黄色按钮</VBButton>
+  <VBButton color="red" icon="search">红色按钮</VBButton>
 </template>
 <script setup>
-import MButton from "./button/index.vue";
-import MInput from "./input/index.vue";
+import VBButton from "./button/index.vue";
+import VBInput from "./input/index.vue";
 </script>

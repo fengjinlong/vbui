@@ -11,27 +11,22 @@
     <div id="app"></div>
     <script type="module">
       import { createApp } from "vue/dist/vue.esm-bundler.js";
-      import MUI, { MButton, MInput } from "../../dist/m-ui.esm.js";
+      import vbui, { VBButton, VBInput } from "../../dist/m-ui.esm.js";
 
       createApp({
         template: `
-      <MButton/>
-      <MInput/>
-    `,
+        <VBButton/>
+        <VBInput/>
+
+        <VBButton color="blue">蓝色按钮</VBButton>
+        <VBButton color="green" icon="add">绿色按钮</VBButton>
+        <VBButton color="gray">灰色按钮</VBButton>
+        <VBButton color="yellow">黄色按钮</VBButton>
+        <VBButton color="red" icon="search">红色按钮</VBButton>
+      `,
       })
-        .use(MUI)
+        .use(vbui)
         .mount("#app");
-      //       createApp({
-      //         template: `
-      // <SButton/>
-      // <JSXButton/>
-      // <SFCButton/>
-      // `,
-      //       })
-      //         .component(SFCButton.name, SFCButton)
-      //         .component(JSXButton.name, JSXButton)
-      //         .component(MyButton.name, MyButton)
-      //         .mount("#app");
     </script>
   </body>
 </html>
