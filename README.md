@@ -1,33 +1,54 @@
-# vbui
-vbui
-<br>
-
-
-
-
-
-<p align="center">
-    <!-- <a href="https://www.npmjs.com/package/smarty-admin-ui"><img src="https://img.shields.io/npm/v/smarty-admin-ui?color=c95f8b&amp;label=" alt="NPM version"></a> -->
-    <a href="https://github.com/fengjinlong/vbui/actions/workflows/main.yml"><img src="https://github.com/fengjinlong/vbui/blob/main/badge.svg" alt="CI" style="max-width: 100%;"></a>
+<h1 align="center">Welcome to vbui 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/vbui" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/vbui.svg">
+  </a>
+  <a href="https://github.com/fengjinlong/mui/blob/main/README.md" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
+  </a>
 </p>
 
-<br>
+> vite ui
 
-## Features
+### 🏠 [Homepage](https://github.com/fengjinlong/mui)
 
-前端工程化演示项目。
+### ✨ [Demo](https://github.com/fengjinlong/mui)
 
-- Monorepo风格 (pnpm workspace)
-- 独立组件库
-- 独立脚手架工具
+## Install
 
-# 目录说明
-```bash
-│   packages
-│   ├── seed # admin空模板
-│   ├── docs  # 文档自动化
-│   ├── ui # 组件库
-│   ├── smarty-ui-vite # 组件库 (Vite版本)
-│   ├── admin # admin全量
-│   ├── cli # 脚手架工具
+```sh
+npm install vbui
 ```
+
+## Usage
+
+```sh
+pnpm ok
+```
+
+## Run tests
+
+```sh
+pnpm run test:run
+```
+
+## Author
+
+👤 **fjl**
+
+* Website: Web Frontend
+* Github: [@fengjinlong](https://github.com/fengjinlong)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+<a href="https://www.patreon.com/jj">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
