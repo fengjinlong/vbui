@@ -2,30 +2,35 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import Unocss from "./config/unocss";
 const rollupOptions = {
-  external: ["vue", "vue-router"],
+  external: ["vue", "vue-router", "bootstrap"],
   output: {
     globals: {
       vue: "Vue",
     },
+    assetFileNames: `assets/[name].css`,
   },
 };
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    port: 8080,
+    hot: true,
+  },
   plugins: [
     vue(),
     // 添加UnoCSS插件
-    Unocss(),
+    // Unocss(),
   ],
   build: {
     rollupOptions,
     minify: false,
     cssCodeSplit: true,
     lib: {
-      entry: "./src/entry.ts",
+      entry: "./src/component/entry.ts",
       name: "VBUI",
       fileName: "vb-ui",
       // 导出模块格式
-      formats: ["esm", "umd", "iife"],
+      formats: ["esm"],
     },
   },
   test: {
