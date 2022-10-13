@@ -1,14 +1,16 @@
 <template>
-  <VBButton></VBButton>
-  <VBInput></VBInput>
-
-  <VBButton color="blue">蓝色按钮</VBButton>
-  <VBButton color="green" icon="add">绿色按钮</VBButton>
-  <VBButton color="gray">灰色按钮</VBButton>
-  <VBButton color="yellow">黄色按钮</VBButton>
-  <VBButton color="red" icon="search">红色按钮</VBButton>
+  <v-button />
+  <v-button>Default</v-button>
+  <v-button type="primary">Primary</v-button>
+  <v-button type="success" @click="btn">Success</v-button>
+  <v-button type="info">Info</v-button>
+  <v-button type="warning">Warning</v-button>
+  <v-button type="danger" disabled>Danger disabled</v-button>
+  <VButton type="danger">Danger</VButton>
 </template>
 <script setup>
-import VBButton from "./button/index.vue";
-import VBInput from "./input/index.vue";
+import VButton from "./component/button/button.vue";
+const btn = () => {
+  console.log("btn", 666);
+};
 </script>
